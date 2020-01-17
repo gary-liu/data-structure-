@@ -16,7 +16,7 @@ public class DFS {
 	private int data[][]; // 表示图的矩阵
 	private boolean mark[][]; // 用来标记我走过的路 防止死循环
 
-	private int minStep;
+	private int minStep = Integer.MAX_VALUE;
 
 	public DFS(int n, int m, int dx, int dy, int[][] data, boolean[][] mark) {
 		super();
