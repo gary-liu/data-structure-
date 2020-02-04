@@ -39,7 +39,7 @@ public class BinarySearchTree {
 				break;
 			}
 			if(key<node.data) node = node.left;
-			else if(key>node.data) node = node.left;
+			else if(key>node.data) node = node.right;
 
 		}
 		if (!find) {
