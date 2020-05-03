@@ -84,7 +84,7 @@ public class Meeting {
             Me me = new Me(meCode, startTime, endTime);
             meList.add(me);
         }
-        meList.sort(null);//实现排序 就是贪心的策略
+//        meList.sort(null);//实现排序 就是贪心的策略
 
         int current = 0;
 

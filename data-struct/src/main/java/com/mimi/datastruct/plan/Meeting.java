@@ -66,7 +66,7 @@ public class Meeting {
 			Me me = new Me(i+1, start, end);
 			mes.add(me);
 		}
-		mes.sort(null);		//实现排序		这个排序其实就是 贪心的策略
+//		mes.sort(null);		//实现排序		这个排序其实就是 贪心的策略
 		int curTime = 0 ;
 		for(int i = 0;i < n; i ++) {
 			Me me = mes.get(i);
